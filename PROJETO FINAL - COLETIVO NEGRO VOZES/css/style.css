@@ -1,0 +1,459 @@
+/* GERAIS */
+
+* {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f4c70c;
+   
+}
+
+
+body {
+    margin: 0;
+}
+
+p , h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3em;
+    color: black;
+}
+
+
+
+/* NAVBAR */
+
+nav {
+    background-color: black;
+    min-height: 20vh;
+    text-transform: uppercase;
+    padding-right: 5px;
+    }   
+    
+   
+    .navbar-dark .navbar-nav .nav-link {
+        color: #f4c70c;
+        text-decoration: none;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: white; 
+        background-color: #800724;
+        
+    }
+         
+    .nav-logo {
+        width: 50%;
+    }
+    
+    .nav-logo img {
+        width: 120px;
+    }
+
+/* ======================================================
+==========================================/* PAGINA HOME*/
+
+/* BOTÃO SAIBA MAIS */
+.button {
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .btn {
+      padding-top: 15px;
+  }
+
+  .btn a {
+    color: white;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  #capa .btn a:hover {
+    color: #800724;
+    background-color: white; 
+    transition: ease-in 0.3s;
+  }
+
+  #atuacao .btn a:hover {
+    color: #12663c;
+    background-color: white; 
+    transition: ease-in 0.3s;
+  }
+
+  #sarau .btn a:hover {
+    color: #F4C70C;
+    background-color: white; 
+    transition: ease-in 0.3s;
+  }
+
+/* BOTÃO SUBIR */
+
+.arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    display: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.arrow-up img {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    top: 12px;
+    font-size: 19px;
+    transition: all 0.3s ease;
+    width: 20px; 
+}
+.arrow-up:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+.arrow-up:hover img {
+    color: #fff;
+    top: 5px;
+}
+
+/* PARALLAX */
+
+#capa .parallax {
+    background-image: url('../img/aasdasd.png');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#capa .parallax-content {
+     background-color: #800724;
+     text-align: center;
+     padding: 50px 0;
+     position: relative; 
+}
+
+#capa .parallax-content h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#capa .parallax-content > p {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-transform: none;
+}
+
+/* PARALLAX ATUAÇÃO */
+
+#atuacao .parallax-atuacao {
+    background-image: url('../img/vozess2.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#atuacao .parallax-content-atuacao {
+    background-color: #12663c;
+    text-align: center;
+    padding: 50px;
+}
+
+#atuacao .parallax-content-atuacao h3 {
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: white;
+   margin-top: 0;
+   padding-top: 20px;
+}
+
+#atuacao .parallax-content-atuacao > p {
+    font-family: 'Nunito', sans-serif;
+   color: white;
+   text-transform: none;
+}
+
+/* PARALLAX SARAU */
+
+#sarau .parallax-sarau {
+    background-image: url('../img/vozes9.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sarau .parallax-content-sarau {
+    background-color: #F4C70C;
+    text-align: center;
+    padding: 50px;
+}
+
+#sarau .parallax-content-sarau h3 {
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: white;
+   margin-top: 0;
+   padding-top: 20px;
+}
+
+#sarau .parallax-content-sarau > p {
+    font-family: 'Nunito', sans-serif;
+   color: white;
+   text-transform: none;
+}
+
+
+/* ======================================================
+=================================*//* PAGINA QUEM SOMOS */
+
+/* CAROUSEL */
+.carrossel-quem-somos img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.carousel-control-prev {
+    left: 100px;
+}
+
+.carousel-control-next {
+    right: 100px;
+}
+
+/* CONTEUDO QUEM SOMOS */
+.quem-somos h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-family: "Fjalla One", Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+   
+}
+
+.quem-somos p {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+span.paragraph-colorful {
+   font-size: 20px; 
+   color: white;
+   background-color: #12663C;
+   font-family:'Courier New', Courier, monospace;
+   font-style: italic;
+   text-align: center;
+}
+
+/* ======================================================
+=======================================*//* PAGINA ATUAÇÃO */
+
+
+.atuacao {
+    margin: 20px 10px;
+    
+}
+
+.atuacao h3 {
+ text-align: center;
+}
+
+atuacao p {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+.texto-destaque {
+    font-size: 25px;
+    background-color: #800724;
+    color: white;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* CAROUSEL ATUAÇÃO */
+#carouselExampleControls img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+/* APOIADORES*/
+.apoiadores {
+    margin: 0;
+    text-align: center;
+
+}
+
+.apoiadores div {
+    display: flex;
+
+}
+
+.apoiadores img {
+    width: 20%;
+}
+
+
+/* =================================================================================================*//* PAGINA SARAU */
+
+/* CONTEUDO SARAU */
+.sarau  h3{
+    font-size: 3em;
+    font-family: 'Fjalla One', sans-serif; 
+    color: #000000;
+    text-align: center;
+    margin: 24px;
+    
+}
+.sarau p {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.sarau2 img{
+    width: 100%;
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.frase-destaque {
+    font-size: 25px;
+    background-color: #F4C70C;
+    color: black;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* CAROUSEL SARAU */
+
+.carousel-control-prev{
+  left: 100px;
+
+}
+
+.carousel-control-next{
+ right: 100px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #000000;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 15px;
+}
+
+li {
+    align-items: left;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.lista ul li {
+    color: #f4c70c;
+
+}
+
+.fbInsta {
+    padding-left: 30%;
+}
+.logo-footer{
+    text-align: center;
+}
+.logo-footer  img {
+    width: 150px;
+}
+
+.lista > li {
+    color: #f4c70c;
+}
+
+.lista a{
+    color: #f4c70c;
+    text-decoration: none;
+}
+
+.rodape1 a {
+    text-decoration: none;
+    color: #f4c70c;   
+}
+
+.rodape1  a:hover {
+    background-color: #800724;
+    padding: 2px 0;
+}
+
+/* MEDIAQUERY==============================*/
+@media (max-width:750px) {
+    .logo-footer  img {
+        width: 140px;
+        padding-left: 30px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;  
+        padding-right: 11%;
+
+    }
+    #capa .parallax {
+        background-position: unset;
+    }
+    .arrow-up img {
+        left: 0;
+  }
+  .fbInsta {
+   padding-right: 35%;
+    }
+}
+
